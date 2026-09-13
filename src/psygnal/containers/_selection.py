@@ -196,7 +196,7 @@ class Selectable(Container[_S]):
         Parameters
         ----------
         new_selection : Iterable[_S]
-        The items to select.
+            The items to select.
         """
         self._selection.intersection_update(new_selection)
         self._selection.update(new_selection)
